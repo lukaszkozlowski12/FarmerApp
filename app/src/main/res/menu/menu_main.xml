@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.basiclab.MainActivity">
+    <item
+        android:id="@+id/action1ListaPol"
+        android:title="@string/listaPola" />
+    <item
+        android:id="@+id/action4_Dodajpole"
+        android:title="@string/ntnDodajPole" />
+    <item
+        android:id="@+id/action2ZestawieniePryskania"
+        android:title="@string/zestawieniePryskania" />
+    <item
+        android:id="@+id/action3_ZestawienieNawozenia"
+        android:orderInCategory="100"
+        android:title="@string/ZestawienieNawozenia"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">AplikacjaRolnicza</string>
+
+    <string name="obslugaBtn">Obsługa pola</string>
+    <string name="ewidencjaBtn">Ewidencja gospodarstwa</string>
+    <string name="ntnDodajPole">Dodaj pole</string>
+    <string name="listaPol">Lista pól:</string>
+
+
+    // do testu fragmentuL:
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="imgdesc">imgdesc</string>
+
+    // koniec fragmentju
+
+    <string name="nazwaHint">Podaj nazwe pola</string>
+    <string name="powierzchniaHint">Podaj powierzchnie w ha</string>
+    <string name="btnObszar">Zaznacz obszar na mapie</string>
+    <string name="btnZapiszPole">Zapisz pole</string>
+    <string name="glebaTextView">Wybierz klase gleby</string>
+    <string name="map_key" translatable="false"> AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>
+
+
+    <string name="powierzchnia">Powierzchnia</string>
+    <string name="nazwa">Nazwa pola</string>
+    <string name="dodajZabieg">Dodaj zabieg</string>
+    <string name="zobaczzabiegi">Zobacz zabiegi</string>
+    <string name="DodajNotatke">Dodaj notatke</string>
+    <string name="DodajZagrozenie">Dodaj Zagrozenie</string>
+    <string name="InfoOpolu">Informacje o polu</string>
+
+    <string name="nawozenie">Nawożenie</string>
+    <string name="pryskanie">Pryskanie</string>
+    <string name="zbior">Zbiór</string>
+    <string name="uprawa">Uprawa</string>
+
+
+    <string name="NazwaNawozu">Nazwa nawozu</string>
+    <string name="WprowadzDane">Wprowadz dane</string>
+    <string name="Dawka">Dawka:</string>
+    <string name="kg">kg/ha</string>
+    <string name="litry">l/ha</string>
+    <string name="skladnik">Składnik:</string>
+    <string name="azot">Azot</string>
+    <string name="fosfor">Fosfor</string>
+    <string name="potas">Potas</string>
+    <string name="ZawartoscSkladnika">Zawartosc składnika [ % ]:</string>
+
+    <string name="btnDodaj">Dodaj</string>
+
+    <string name="NazwaOprysku">Nazwa oprysku:</string>
+    <string name="RodzajSrodka">Rodzaj środka:</string>
+    <string name="herbicyd">Herbicyd</string>
+    <string name="Fungicyd">Fungicyd</string>
+    <string name="Insektycyd">Insektycyd</string>
+    <string name="stymulator">Stymulator wzrostu</string>
+
+    <string name="przyczyna">Przyczyna zastosowania:</string>
+    <string name="przyczynaHint">Nasilenie chwastów</string>
+    <string name="NapiszNotatke">Napisz notatkę:</string>
+
+    <string name="NazwaRosliny">Nazwa rośliny:</string>
+    <string name="plon">Plon:</string>
+    <string name="sztuki">sztuk/ha</string>
+    <string name="tony">ton/ha</string>
+
+    <string name="Uprawa">Wybierz uprawe:</string>
+    <string name="oranie">Orka</string>
+    <string name="Bronowanie">Bronowanie</string>
+    <string name="agregat">Agregat</string>
+    <string name="talerzowanie">Talerzowanie</string>
+
+    <string name="uwagi">Inne uwagi: </string>
+
+    <string name="wybierzZagrozenie">Wybierz zagrożenie:</string>
+    <string name="zwierzęta">Zwierzęta</string>
+    <string name="robak">Robak</string>
+    <string name="inne">Inne</string>
+
+    <string name="zabiegi">ZABIEGI: </string>
+    <string name="Zagrozenia">ZAGROŻENIA:</string>
+    <string name="Notatki">NOTATKI: </string>
+
+    <string name="btnZobaczObszar">Zobacz obszar na mapie</string>
+
+    <string name="listaPola">Lista pól</string>
+    <string name="ZestawienieNawozenia">Zestawienie nawożenia</string>
+    <string name="zestawieniePryskania">Zestawienie pryskania</string>
+    <string name="PlanAzotowy">Plan azotowy</string>
+    <string name="dzialkiNaMapie">Działki na mapie</string>
+    <string name="csv">Utwórz plik CSV</string>
+    <string name="btnCSvnawozenie">Utwórz plik csv</string>
+
+    <string name="NrEwidencyjny">Numer ewidencyjny</string>
+    <string name="PodajNrEw">Podaj nr ewidencyjny działki</string>
+
+
+
+</resources>

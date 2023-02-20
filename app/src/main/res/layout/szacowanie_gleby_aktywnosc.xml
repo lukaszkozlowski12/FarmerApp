@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B2F42"
+    android:orientation="vertical"
+
+
+    tools:context=".SzacowanieGlebyAktywnosc">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:background="#00000000"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#74A7AE">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:ems="7"
+                    android:text="@string/nazwa"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:text="Plan"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:ems="3"
+                    android:text="Zastosowany azot"
+                    android:textColor="@android:color/black" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listviewAzot"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="6dp"
+        android:layout_weight="1"
+        android:background="#00000000">
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#00000000"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnWroc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:text="Powrót"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnCsvPlanAzot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:text="@string/csv"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>
